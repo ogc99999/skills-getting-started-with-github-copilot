@@ -24,6 +24,20 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 3. Open the forwarded port 8000 in your browser. The API documentation is at `/docs`, and the alternative documentation is at `/redoc`.
 
+## Running tests
+
+Install dependencies from the repository root with:
+
+```
+pip install -r requirements.txt
+```
+
+Then run the backend test suite from the repository root:
+
+```
+python -m pytest
+```
+
 ## API Endpoints
 
 | Method | Endpoint                                                          | Description                                                         |
